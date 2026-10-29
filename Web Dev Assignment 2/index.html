@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body id="top">
+
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <img src="/WhatsApp Image 2026-09-19 at 3.04.08 PM.jpeg" alt="Profile Photo of the Developer" class="profile-img">
+        <p>Hello! My name is Rishav Adhikari. I am a passionate web developer learning how to build responsive, beautiful, and functional websites. This portfolio showcases my journey, technical skills, and recent projects.</p>
+    </section>
+
+
+    <hr class="section-divider">
+
+    <section id="skills" class="container">
+        <h2>Technical Skills</h2>
+        <table class="skills-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Tools & Technologies</th>
+                    <th>Proficiency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frontend</td>
+                    <td>HTML5, CSS3</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Design</td>
+                    <td>Figma, Adobe XD</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Version Control</td>
+                    <td>Git, GitHub</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Portfolio Webpage</h3>
+            <p>A personal portfolio built using Semantic HTML and standard CSS Box Model principles. Features smooth scrolling, a sticky navigation bar, and custom typography.</p>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <a href="#top" class="back-to-top">Top</a>
+
+</body>
+</html>
